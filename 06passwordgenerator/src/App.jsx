@@ -14,8 +14,8 @@ function App() {
     if (isSymbol) helperPass += "!@#$%^&*-_+=[]{}~`";
 
     for (let i = 0; i < length; i++) {
-      let randomePos = Math.floor(Math.random() * helperPass.length + 1);
-      pass += helperPass.charAt(randomePos);
+      let randomPos = Math.floor(Math.random() * helperPass.length + 1);
+      pass += helperPass.charAt(randomPos);
     }
 
     setPassword(pass);
