@@ -1,6 +1,6 @@
 import Input from "./components/Input"
 
-function App() {
+export default function App() {
   return (
     <>
       <h1 className="text-center">Currency Converter</h1>
@@ -9,5 +9,3 @@ function App() {
     </>
   )
 }
-
-export default App
